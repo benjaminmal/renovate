@@ -2177,10 +2177,10 @@
   dependencies:
     "@octokit/openapi-types" "^14.0.0"
 
-"@one-ini/wasm@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.0.tgz#9afb7db5804f509490de695481cf05a00aef9ccd"
-  integrity sha512-cP8ZX+YBxw7SykvcX1NNKSia7ByE+PQTLZcRcEuuHsGJL+Zzuid+LSU1gC6QS1Ll3GTdE7z1/+JR5MYeMQkLBQ==
+"@one-ini/wasm@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.1.tgz#6013659736c9dbfccc96e8a9c2b3de317df39323"
+  integrity sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==
 
 "@openpgp/web-stream-tools@0.0.12":
   version "0.0.12"
@@ -4161,10 +4161,15 @@ columnify@^1.6.0:
     strip-ansi "^6.0.1"
     wcwidth "^1.0.0"
 
-commander@9.4.1, commander@^9.4.1:
+commander@9.4.1:
   version "9.4.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-9.4.1.tgz#d1dd8f2ce6faf93147295c0df13c7c21141cfbdd"
   integrity sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==
+
+commander@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-10.0.0.tgz#71797971162cd3cf65f0b9d24eb28f8d303acdf1"
+  integrity sha512-zS5PnTI22FIRM6ylNW8G4Ap0IEOyk62fhLSD0+uHRT9McRCLGpkVNvao4bjimpK/GShynyQkFFxHhwMcETmduA==
 
 common-ancestor-path@^1.0.1:
   version "1.0.1"
@@ -4599,14 +4604,14 @@ duplexer2@~0.1.0:
   dependencies:
     readable-stream "^2.0.2"
 
-editorconfig@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/editorconfig/-/editorconfig-1.0.0.tgz#c2d9d0f287b3c14cb64aaf71dd1d11c8a6ec535c"
-  integrity sha512-kep0YWCniNr1Z/pkavbAQ3yRQRTkaO+xJBiZPWwObnsS8dlo4C14onTf35IpPtR1nM8bqgDF9XVscDY7QwVEng==
+editorconfig@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/editorconfig/-/editorconfig-1.0.2.tgz#0e4ff2ce6bf392f3f9e4d50c1a9819b06d380d15"
+  integrity sha512-l8CnaNCz0dgCqJQ3hKqW2qtUavm1WLdJUvlxufaZ6JDkds3UFxgUKnKJz982yJPYko/78LkWAiwJadFnFtUBjw==
   dependencies:
-    "@one-ini/wasm" "0.1.0"
-    commander "^9.4.1"
-    minimatch "5.1.0"
+    "@one-ini/wasm" "0.1.1"
+    commander "^10.0.0"
+    minimatch "6.1.6"
     semver "^7.3.8"
 
 electron-to-chromium@^1.4.251:
@@ -7295,6 +7300,13 @@ minimatch@5.1.0, minimatch@^5.0.1, minimatch@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.0.tgz#1717b464f4971b144f6aabe8f2d0b8e4511e09c7"
   integrity sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg==
+  dependencies:
+    brace-expansion "^2.0.1"
+
+minimatch@6.1.6:
+  version "6.1.6"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-6.1.6.tgz#5384bb324be5b5dae12a567c03d22908febd0ddd"
+  integrity sha512-6bR3UIeh/DF8+p6A9Spyuy67ShOq42rOkHWi7eUe3Ua99Zo5lZfGC6lJJWkeoK4k9jQFT3Pl7czhTXimG2XheA==
   dependencies:
     brace-expansion "^2.0.1"
 
